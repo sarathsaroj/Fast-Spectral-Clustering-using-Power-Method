@@ -1,6 +1,3 @@
-In our exploration, we assess the efficiencies of classical and fast spectral clustering techniques
-using the MNIST dataset as a benchmark. By implementing and rigorously comparing
-these methodologies, we gauge their performance across execution times and clustering metrics
-such as the Adjusted Rand Index (ARI) and Normalized Mutual Information (NMI).
-The results illuminate the substantial computational speedup achieved by the fast spectral
-clustering method without compromising, and occasionally enhancing, the clustering quality.
+In our exploration, we assess the efficiencies of classical and fast spectral clustering techniques using the MNIST dataset as a benchmark. By implementing and rigorously comparing these methodologies, we gauge their performance across execution times and clustering metrics such as the Adjusted Rand Index (ARI) and Normalized Mutual Information (NMI). The results illuminate the substantial computational speedup achieved by the fast spectral clustering method without compromising, and occasionally enhancing, the clustering quality.
+
+This project introduces and evaluates an innovative spectral clustering technique that uses a power method to approximate eigenvectors of the Laplacian matrix in the form of dominant vectors, reducing computational complexity drastically. Our study involves comparing this power method against traditional spectral clustering to assess differences in execution times, clustering accuracy, and robustness, employing the MNIST dataset of handwritten digits to test these attributes under complex data conditions.
